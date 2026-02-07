@@ -1,0 +1,36 @@
+# Core dependencies
+numpy<2.0  # Pin to NumPy 1.x for compatibility with scipy and other compiled modules
+pandas
+scikit-learn
+scipy
+
+# Deep Learning
+torch
+torchvision
+torchaudio
+# Hyperparameter tuning (optional)
+optuna
+tensorboard
+
+# Medical Imaging
+nibabel
+SimpleITK
+nilearn
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Utilities
+tqdm
+joblib
+PyYAML
+wandb  # Weights & Biases for experiment tracking
+
+# Optional but recommended
+jupyter
+ipykernel
+scikit-image
+dicom2nifti  # DICOM → NIfTI conversion tool (also installs pydicom) 
+connected-components-3d
